@@ -1,18 +1,19 @@
 import scrapy
 from sqlalchemy import create_engine, MetaData, Table, Integer, String, Column
 
-class PagesSpider(scrapy.Spider):
+class RoomsSpider(scrapy.Spider):
     name = "rooms"
 
     def __init__(self, *args, **kwargs):
-	super(PagesSpider, self).__init__(*args, **kwargs)
-	db = create_engine('sqlite:///rooms.db') #, echo=True)
-	metadata = MetaData(db)
-	self.rooms = Table('rooms', metadata, autoload=True)
-	r = self.rooms.select()
-	rs = r.execute()
-	for phone_page in rs:
-	    start_urls.append(phone.page.link)
+		super(RoomsSpider, self).__init__(*args, **kwargs)
+		
+		db = create_engine('sqlite:///rooms.db') #, echo=True)
+		metadata = MetaData(db)
+		self.rooms = Table('rooms', metadata, autoload=True)
+		r = self.rooms.select()
+		rs = r.execute()
+		for phone_page in rs:
+			self.start_urls.append(phone_page.link)
 
     def get_phone(self, response):
 		phone_ajax_link = response.css('#show_phone').xpath('@data-link').extract_first()
@@ -23,10 +24,5 @@ class PagesSpider(scrapy.Spider):
 		    addiction.execute(link=quote.css('a').xpath('@href').extract_first())
 
     def parse(self, response):
-	# continue here
-	ajax_phone = response.css()
-	# from start_urls response comes
-		#for page in range(2, last_page):  #last_page):
-		#    yield scrapy.Request(base_url + str(page), callback=self.get_rooms_links)
-
-
+		phone_ajax_link = response.css('#show_phone').xpath('@data-link').extract_first()
+		print phone_ajax_link

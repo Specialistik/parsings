@@ -16,5 +16,4 @@ with open("rooms.html", "w") as rooms_file:
 #with open("autos.html", "w") as autos_file:
 #   autos_file.write(autos.content)
 
-
 #response = requests.get(url, headers=headers)     

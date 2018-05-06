@@ -43,21 +43,17 @@ class AvitoSpider(scrapy.Spider):
         self.last_page_link = wanted_link
 
     def parse(self, response):
-        for link in response.css('a.item-description-title-link'):
+        base_ajax_url = 'https://www.avito.ru/items/phone/%s?pkey=%s&vsrc=r'
+        for link_raw in response.css('a.item-description-title-link'):
+            link = link_raw.css('a').xpath('@href').extract_first()
             addiction = self.real_estate.insert()
-            addiction.execute(link=link.css('a').xpath('@href').extract_first())
-        # phone_ajax_link = response.css('#show_phone').xpath('@data-link').extract_first()
+            addiction.execute(link=link)
 
-    """
-        def get_rooms_links(self, response):
-            for quote in response.css('td.re-search-result-table__body-cell_price'):
-                addiction = self.rooms.insert()
-                addiction.execute(link=quote.css('a').xpath('@href').extract_first())
-    """
+            ad_id = link.split('_')[-1]
+            real_ajax_link = base_ajax_url + ad_id + '/'
 
+            # "a.button item-phone-button js-item-phone-button item-phone-button_hide-phone item-phone-button_card js-item-phone-button_card"
+            # https://www.avito.ru/items/phone/1300276049?pkey=a9aeff83e06e4218730c5da4062b0250&vsrc=r
+            ajax_idea = link_raw.css('a.item-phone-button').xpath()
+            scrapy.Request()
 
-"""
-        last_page = int(response.css('.re-pagination-side-link::text').extract()[-1])
-        for page in range(2, last_page):  # last_page):
-            yield scrapy.Request(base_url + str(page), callback=self.get_rooms_links)
-"""

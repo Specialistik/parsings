@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
-
+from base64 import decodestring
 
 Advertisement = namedtuple('Advertisement','id price phone')
 
@@ -31,9 +31,15 @@ def recognize(base64_image):
     #image = Image.open(StringIO(base64.b64decode(base64_image))).convert('LA')
     #image.save("captcha.png", "PNG")
     #image = Image.open(StringIO(base64.b64decode(base64_image)))
-    image = Image.open(BytesIO(base64.b64decode(base64_image))).convert('LA')
-    image.save("captcha", 'png')
-    image = image.convert('LA')
+
+
+
+    with open("captcha.png","wb") as f:
+        f.write(decodestring(base64_image))
+
+    #image = Image.open(BytesIO(base64.b64decode(base64_image))).convert('LA')
+    #image.save("captcha", 'png')
+    #image = image.convert('LA')
     left_margins = (2,13,20,27,39,46,53,65,73,84,92)
     DIGITS_BY_HIST = {44: '0', 16: '1',38: '2', 43: '3', 28: '4', 41: '5', 45: '6',25: '7', 53: '8', 47: '9'}
     digits=[]

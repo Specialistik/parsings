@@ -37,6 +37,8 @@ def recognize(base64_image):
     with open("captcha.png","wb") as f:
         f.write(decodestring(base64_image))
 
+    image = Image.open("captcha.png").convert('LA')
+
     #image = Image.open(BytesIO(base64.b64decode(base64_image))).convert('LA')
     #image.save("captcha", 'png')
     #image = image.convert('LA')

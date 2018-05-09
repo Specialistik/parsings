@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import requests
+import pytesseract
 from lxml import html
 from re import findall
 from PIL import Image
@@ -27,25 +28,13 @@ def get_image_pkey(ad_id, ad_phone):
             ad_subhash = ''.join(ad_subhash)
     return ad_subhash[::3]
 
+
 def recognize(base64_image):
     with open("captcha.png","wb") as f:
         f.write(decodestring(base64_image))
 
     image = Image.open("captcha.png").convert('LA')
-
-    left_margins = (2,13,20,27,39,46,53,65,73,84,92)
-    DIGITS_BY_HIST = {44: '0', 16: '1',38: '2', 43: '3', 28: '4', 41: '5', 45: '6',25: '7', 53: '8', 47: '9'}
-    digits=[]
-
-    # The problem is here
-    for index, left_margin in enumerate(left_margins, start=1):
-        box = (left_margin,4, left_margin+6,14)
-        digit = image.crop(box)
-        characteristic = digit.histogram()[0]
-        print (index, characteristic)
-        digits.append(DIGITS_BY_HIST.get(characteristic,'x'))
-    return ''.join(digits)
-
+    print pytesseract.image_to_string(image)
 
 def smart_parse(uri):
     profile = webdriver.FirefoxProfile()

@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b434bcd8-feff-4cab-bc87-d4084ae67818" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/real_estate.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/rooms.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/avito.db" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/avito.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/bin/phantomjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/install.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/test/exit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/test/loadspeed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/test/tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/pages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/rooms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/rooms_phones.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,16 +30,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recognition.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py">
+      <file leaf-file-name="captcha.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recognise.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognise.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="captcha.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="avito.py" pinned="false" current-in-tab="false">
@@ -144,6 +134,8 @@
         <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito.py" />
         <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py" />
         <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" />
+        <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognise.py" />
+        <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.py" />
       </list>
     </option>
   </component>
@@ -283,6 +275,27 @@
               <item name="parsings" type="462c0819:PsiDirectoryNode" />
               <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parsings" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parsings" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parsings" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="avito" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +304,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognise.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -314,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bot">
+  <component name="RunManager" selected="Python.avito">
     <configuration name="avito" type="PythonConfigurationType" factoryName="Python">
       <module name="parsings" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,13 +335,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avito.ru.parser.work" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avito.ru.parser.work/parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -400,8 +413,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35384616" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17423134" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2035139" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -461,20 +474,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smart_spider/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -482,13 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py">
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,13 +639,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py">
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -46,18 +46,3 @@ class AvitoSpider(scrapy.Spider):
         for link in response.css('a.item-description-title-link'):
             addiction = self.real_estate.insert()
             addiction.execute(link=link.css('a').xpath('@href').extract_first())
-        # phone_ajax_link = response.css('#show_phone').xpath('@data-link').extract_first()
-
-    """
-        def get_rooms_links(self, response):
-            for quote in response.css('td.re-search-result-table__body-cell_price'):
-                addiction = self.rooms.insert()
-                addiction.execute(link=quote.css('a').xpath('@href').extract_first())
-    """
-
-
-"""
-        last_page = int(response.css('.re-pagination-side-link::text').extract()[-1])
-        for page in range(2, last_page):  # last_page):
-            yield scrapy.Request(base_url + str(page), callback=self.get_rooms_links)
-"""

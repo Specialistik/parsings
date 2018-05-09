@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b434bcd8-feff-4cab-bc87-d4084ae67818" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avito.ru.parser.work" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/links_of_items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/links_of_items_.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/real_estate.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/rooms.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/avito.db" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/avito.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/captcha.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/bin/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/test/exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/test/loadspeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/phantomjs/test/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/pages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/rooms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smart_spider/smart_spider/spiders/rooms_phones.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,23 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pages.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" column="18" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -44,15 +51,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rooms.db" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/rooms.db">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="recognition.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="avito.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="135">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -64,7 +78,7 @@
       <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart_spider/scrapy.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -73,21 +87,16 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="165">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="195">
               <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
@@ -134,6 +143,7 @@
         <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main.py" />
         <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito.py" />
         <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py" />
+        <option value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py" />
       </list>
     </option>
   </component>
@@ -144,9 +154,113 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/concat-stream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/extract-zip/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/fd-slicer/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/hasha/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/is-my-ip-valid/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/kew/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/klaw/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/pend/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/progress/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/request-progress/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/throttleit/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/typedarray/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/node_modules/yauzl/package.json" />
+    </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="507" />
     <option name="width" value="844" />
     <option name="height" value="688" />
@@ -156,6 +270,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,37 +281,22 @@
             <path>
               <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
               <item name="parsings" type="462c0819:PsiDirectoryNode" />
-              <item name="yowsup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parsings" type="462c0819:PsiDirectoryNode" />
-              <item name="yowsup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="parsings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="smart_spider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AnimaInc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito" />
       <recent name="C:\Users\Mundus\PycharmProjects\parsings\yowsup\src" />
       <recent name="C:\Users\Mundus\PycharmProjects\parsings\whatsapp-framework\libs\yowsup\yowsup\env" />
       <recent name="C:\Users\Mundus\PycharmProjects\parsings\avito.ru.parser.work\results" />
@@ -291,53 +391,54 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="28" width="1366" height="706" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4250412" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35384616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17423134" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4250412" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Data View" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3970346" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30642503" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="8" />
     </layout-to-restore>
   </component>
@@ -360,6 +461,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/smart_spider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -367,23 +499,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/parser_original.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/projects_all.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/parser.py" />
+    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/projects_all.csv" />
     <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -418,46 +535,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/whatsapp-framework/libs/yowsup/setup.py" />
-    <entry file="file://$PROJECT_DIR$/yowsup/src/countries.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yowsup/src/Yowsup/Common/debugger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yowsup/src/Examples/ListenerClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yowsup/src/Examples/EchoClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yowsup/src/Examples/CmdClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1643" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yowsup/src/Yowsup/connectionmanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yowsup/src/countries.csv" />
+    <entry file="file://$PROJECT_DIR$/yowsup/src/Yowsup/Common/debugger.py" />
+    <entry file="file://$PROJECT_DIR$/yowsup/src/Examples/ListenerClient.py" />
+    <entry file="file://$PROJECT_DIR$/yowsup/src/Examples/EchoClient.py" />
+    <entry file="file://$PROJECT_DIR$/yowsup/src/Examples/CmdClient.py" />
+    <entry file="file://$PROJECT_DIR$/yowsup/src/Yowsup/connectionmanager.py" />
     <entry file="file://$PROJECT_DIR$/whatsapp-framework/libs/yowsup/yowsup/env/env_android.py" />
     <entry file="file://$PROJECT_DIR$/whatsapp-framework/libs/yowsup/yowsup/yowsup/env/env_android.py" />
     <entry file="file://$PROJECT_DIR$/whatsapp-framework/libs/yowsup/yowsup-cli" />
-    <entry file="file://$PROJECT_DIR$/yowsup/src/yowsup-cli.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yowsup/src/yowsup-cli.config" />
     <entry file="file://$PROJECT_DIR$/layer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -479,13 +566,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yowsup/src/qe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yowsup/src/qe" />
     <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -505,71 +586,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/rooms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/sqlalchemy/sql/selectable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="1750" column="36" lean-forward="true" selection-start-line="1750" selection-start-column="36" selection-end-line="1750" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1744">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/projects_all.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="507" selection-start-line="507" selection-end-line="507" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="18" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/sqlalchemy/sql/selectable.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/tokenize.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/bs4/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/projects_all.csv" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py" />
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/pages.py" />
     <entry file="file://$PROJECT_DIR$/smart_spider/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/spiders/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/parser.py" />
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/rooms.py" />
     <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -577,58 +626,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/links_of_items.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/links_of_items_.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/parser_original.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/rooms.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/main_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avito.ru.parser.work/parser.py">
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-923">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="156">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/smart_spider/smart_spider/spiders/avito/recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,5 +1,6 @@
 import scrapy
 from sqlalchemy import create_engine, MetaData, Table, Integer, String, Column
+from recognise import recognise_captcha
 
 
 class AvitoSpider(scrapy.Spider):

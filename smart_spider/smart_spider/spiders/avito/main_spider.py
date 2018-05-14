@@ -1,11 +1,7 @@
 import scrapy
-<<<<<<< HEAD
-from sqlalchemy import create_engine, MetaData, Table, Integer, String, Column, Text, ForeignKey
-from scrapy.contrib.linkextractors.lxmlhtml import LxmlParserLinkExtractor
-=======
 from sqlalchemy import create_engine, MetaData, Table, Integer, String, Column
+from scrapy.linkextractors import LinkExtractor
 from recognise import recognise_captcha
->>>>>>> 1e939b28459cf705aac34318892e8920a8db1779
 
 
 class AvitoSpider(scrapy.Spider):
@@ -63,7 +59,7 @@ class AvitoSpider(scrapy.Spider):
     def get_js_files(self, response):
         tags = ['script']
         attrs = ['src', 'href']
-        extractor = LxmlParserLinkExtractor(lambda x: x in tags, lambda x: x in attrs)
+        extractor = LinkExtractor(lambda x: x in tags, lambda x: x in attrs)
         return [l.url for l in extractor.extract_links(response)]
 
     def prepare_ajax(self, response):
@@ -76,16 +72,5 @@ class AvitoSpider(scrapy.Spider):
         for link_raw in response.css('a.item-description-title-link'):
             link = link_raw.css('a').xpath('@href').extract_first()
             addiction = self.real_estate.insert()
-<<<<<<< HEAD
-            addiction.execute(link=link)
-
-            ad_id = link.split('_')[-1]
-            real_ajax_link = base_ajax_url + ad_id + '/'
-
-            # "a.button item-phone-button js-item-phone-button item-phone-button_hide-phone item-phone-button_card js-item-phone-button_card"
-            # https://www.avito.ru/items/phone/1300276049?pkey=a9aeff83e06e4218730c5da4062b0250&vsrc=r
-            ajax_idea = link_raw.css('a.item-phone-button').xpath()
-            scrapy.Request(url=link, callback=self.prepare_ajax)
-=======
             addiction.execute(link=link.css('a').xpath('@href').extract_first())
->>>>>>> 1e939b28459cf705aac34318892e8920a8db1779
+

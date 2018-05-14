@@ -1,6 +1,11 @@
 import scrapy
+<<<<<<< HEAD
 from sqlalchemy import create_engine, MetaData, Table, Integer, String, Column, Text, ForeignKey
 from scrapy.contrib.linkextractors.lxmlhtml import LxmlParserLinkExtractor
+=======
+from sqlalchemy import create_engine, MetaData, Table, Integer, String, Column
+from recognise import recognise_captcha
+>>>>>>> 1e939b28459cf705aac34318892e8920a8db1779
 
 
 class AvitoSpider(scrapy.Spider):
@@ -71,6 +76,7 @@ class AvitoSpider(scrapy.Spider):
         for link_raw in response.css('a.item-description-title-link'):
             link = link_raw.css('a').xpath('@href').extract_first()
             addiction = self.real_estate.insert()
+<<<<<<< HEAD
             addiction.execute(link=link)
 
             ad_id = link.split('_')[-1]
@@ -80,3 +86,6 @@ class AvitoSpider(scrapy.Spider):
             # https://www.avito.ru/items/phone/1300276049?pkey=a9aeff83e06e4218730c5da4062b0250&vsrc=r
             ajax_idea = link_raw.css('a.item-phone-button').xpath()
             scrapy.Request(url=link, callback=self.prepare_ajax)
+=======
+            addiction.execute(link=link.css('a').xpath('@href').extract_first())
+>>>>>>> 1e939b28459cf705aac34318892e8920a8db1779
